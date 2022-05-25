@@ -27,7 +27,7 @@ function appendFile(input = '') {
 function createLine(line) {
   const answer = line.trim();
   if (answer === 'exit') {
-    rl.close;
+    rl.close();
   } else {
     appendFile(answer + '\n');
   }
